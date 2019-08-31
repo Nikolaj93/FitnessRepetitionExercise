@@ -9,9 +9,10 @@ public class Menu {
 
     private void show(){
         System.out.println("Welcome to the menu!");
-        System.out.println("1. Does one thing");
-        System.out.println("2. Does another thing");
-        System.out.println("3. Does something completely different");
+        System.out.println("1. Add New Member");
+        System.out.println("2. Show Members");
+        System.out.println("3. Add New Employee");
+        System.out.println("4. Show Employees");
     }
     public void runMenu(){
         show();
@@ -20,12 +21,24 @@ public class Menu {
         switch (input){
             case "1":
                 System.console().flush();
-                cont.DoesOneThing();
+                cont.addNewMember();
                 break;
 
             case "2":
                 System.console().flush();
-                cont.DoesAnotherThing();
+                cont.showMembers();
+                System.out.println("\n");
+                break;
+
+            case "3":
+                System.console().flush();
+                cont.addNewEmployee();
+                System.out.println("\n");
+                break;
+
+            case "4":
+                //System.out.print("\033[H\033[2J");
+                cont.showEmployees();
                 System.out.println("\n");
                 break;
 
