@@ -42,5 +42,9 @@ public class Members {
         this.membershipFee = membershipFee;
     }
 
+    @Override
+    public String toString(){
+        return "Name: " + memberName + "CPR: " + memberCPR + "Type: " + memberType + "Membership Fee: " + membershipFee;
+    }
 
 }

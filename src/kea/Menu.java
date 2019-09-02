@@ -1,6 +1,5 @@
 package kea;
 
-import java.io.Console;
 import java.util.Scanner;
 
 public class Menu {
@@ -20,18 +19,15 @@ public class Menu {
 
         switch (input){
             case "1":
-                System.console().flush();
                 cont.addNewMember();
                 break;
 
             case "2":
-                System.console().flush();
                 cont.showMembers();
                 System.out.println("\n");
                 break;
 
             case "3":
-                System.console().flush();
                 cont.addNewEmployee();
                 System.out.println("\n");
                 break;
