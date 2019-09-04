@@ -8,10 +8,9 @@ public class Menu {
 
     private void show(){
         System.out.println("Welcome to the menu!");
-        System.out.println("1. Add New Member");
-        System.out.println("2. Show Members");
-        System.out.println("3. Add New Employee");
-        System.out.println("4. Show Employees");
+        System.out.println("1. Add New Person");
+        System.out.println("2. Show Persons");
+        System.out.println("9. Exit Program");
     }
     public void runMenu(){
         show();
@@ -19,27 +18,19 @@ public class Menu {
 
         switch (input){
             case "1":
-                cont.addNewMember();
+                cont.addNewPerson();
                 break;
 
             case "2":
-                cont.showMembers();
-                System.out.println("\n");
+                cont.showPerson();
                 break;
 
             case "3":
-                cont.addNewEmployee();
-                System.out.println("\n");
-                break;
-
-            case "4":
-                //System.out.print("\033[H\033[2J");
-                cont.showEmployees();
-                System.out.println("\n");
+                cont.exitProgram();
                 break;
 
             default:
-                System.out.println("??");
+                System.out.println("Goodbye!");
                 System.out.println("\n");
                 break;
         }
