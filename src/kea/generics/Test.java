@@ -7,13 +7,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-    //  List<String> liste= new ArrayList();
-    //  liste.add("Claus");
-    //  Object s = liste.get(0);
+    //  List<String> stringList = new ArrayList();
+    //  stringList.add("Claus");
+    //  Object s = stringList.get(0);
     //  System.out.println(s);
 
-    //  liste.add(22);
-    //  Object i = liste.get(1);
+    //  stringList.add(22);
+    //  Object i = stringList.get(1);
 
         Box<String> box = new Box<>();
 
