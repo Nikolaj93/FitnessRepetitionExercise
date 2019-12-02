@@ -1,4 +1,4 @@
-package kea;
+package kea.fitnessexercises;
 
 public class Member extends Person {
 

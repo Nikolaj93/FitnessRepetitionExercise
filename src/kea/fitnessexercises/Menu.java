@@ -1,4 +1,4 @@
-package kea;
+package kea.fitnessexercises;
 
 import java.util.Scanner;
 

@@ -1,8 +1,4 @@
-package kea;
-
-import java.awt.*;
-import java.util.ArrayList;
-import java.util.List;
+package kea.fitnessexercises;
 
 public class Main {
 

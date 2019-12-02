@@ -1,4 +1,4 @@
-package kea;
+package kea.fitnessexercises;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -16,12 +16,13 @@ public class Controller {
             //personList.add(myScan.next());
 
             System.out.println("Enter the person's CPR");
-            if () {
+        //   if () {
 
             }
             System.out.println("The person has been added to the system!");
         }
-    }
+
+
 
         public void showPerson() {
             personList.add(new Member("Claus", 21212, true));
