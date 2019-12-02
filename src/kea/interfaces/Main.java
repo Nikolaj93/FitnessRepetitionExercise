@@ -10,12 +10,12 @@ public class Main {
         IShape rectangle = new Rectangle(3, 6);
         IShape circle = new Circle(4.5);
 
-        List<IShape> shapelist = new LinkedList<>();
-        shapelist.add(rectangle);
-        shapelist.add(circle);
+        List<IShape> shapeList = new LinkedList<>();
+        shapeList.add(rectangle);
+        shapeList.add(circle);
 
 
-        for (IShape s: shapelist) {
+        for (IShape s: shapeList) {
             System.out.println(s.getArea() + " :  " + s.getPerimeter());
         }
 
