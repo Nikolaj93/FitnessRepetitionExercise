@@ -12,6 +12,6 @@ public class Main {
 
         Scanner myScan = new Scanner(txtFile);
 
-        // code goes here
+        // code goes here...
     }
 }
